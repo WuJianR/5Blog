@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+//滚动条
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(239, 239, 239);
+    border-radius: 2px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #bfbfbf;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bfbfbf;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: #bfbfbf;
+  }
+  
+.top {
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 #ddd;
+    display: flex;
+    .top-nav {
+        width: 1350px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        .nav {
+            text-decoration: none;
+            padding: 0 15px;
+            font-size: 14px;
+        }
+        .logo{
+            font-size: 30px;
+            font-weight: 600;
+            color: #1890ff;
+            text-decoration: none;
+            padding-right: 15px;
+        }
+        .active {
+            color: #c94646;
+        }
+    }
+}
+.body-container {
+    width: 1150px;
+    padding-top: 50px;
+    min-height: calc(100vh - 100px);
+    margin: 0 auto;
+    .body-main {
+      margin: 10px 0;
+    }
+}
+
+.footer {
+    div {
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

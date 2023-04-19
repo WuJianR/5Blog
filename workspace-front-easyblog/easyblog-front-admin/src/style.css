@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* paddding和border不占据行内 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #b878d8;
+}
+/* <a>标签禁用样式 */
+.not-allow {
+  cursor: not-allowed;
+  color: #ddd;
+  text-decoration: none;
+}
